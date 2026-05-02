@@ -1,16 +1,96 @@
-# React + Vite
+# Smart Resume Screening (Frontend + Firebase Auth)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based web application that allows users to upload resumes and compare them with job descriptions using an AI-style interface. The project includes Google authentication, protected routes, and a clean dashboard UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Google Login using Firebase Authentication  
+- Resume upload UI (PDF support ready)  
+- Job description input for analysis  
+- AI-style resume match score (frontend simulation)  
+- History page (mock data UI)  
+- Admin dashboard UI  
+- Protected routes using Auth HOC  
+- Clean and responsive light UI design  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js  
+- React Router DOM  
+- Firebase Authentication  
+- Material UI (Icons + Skeleton Loader)  
+- CSS Modules  
+
+---
+
+## Project Structure
+
+src/
+├── component/
+│   ├── Dashboard/
+│   ├── History/
+│   ├── Admin/
+│   ├── Login/
+│   ├── SideBar/
+│
+├── utils/
+│   ├── firebase.js
+│   ├── AuthContext.jsx
+│   ├── HOC/
+│
+├── App.jsx
+├── main.jsx
+
+---
+
+## Getting Started
+
+### 1. Clone the repository
+
+git clone https://github.com/your-username/your-repo-name.git
+
+---
+
+### 2. Install dependencies
+
+npm install
+
+---
+
+### 3. Run the project
+
+npm run dev
+
+---
+
+## Firebase Setup
+
+- Create a Firebase project  
+- Enable Google Authentication  
+- Add Firebase config in:
+
+src/utils/firebase.js
+
+---
+
+## Future Improvements
+
+- Backend integration (Node.js + Express)  
+- Real AI-based resume scoring  
+- MongoDB / Firestore for storing history  
+- File upload processing  
+- Deployment (Vercel / Firebase Hosting)  
+
+---
+
+## Author
+
+Student Developer  
+
+Project: Smart Resume Screening System  
+
+---
