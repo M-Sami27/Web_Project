@@ -1,0 +1,94 @@
+.Dashboard {
+    display: flex;
+    min-height: 100vh;
+    background: #f5f7fb;
+    font-family: Arial, sans-serif;
+    color: #111;
+}
+
+/* LEFT */
+.Left {
+    flex: 2;
+    padding: 50px;
+}
+
+/* HEADER */
+.header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    color: #6b7280;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+/* FILE TEXT */
+.file {
+    margin-left: 10px;
+    color: #6b7280;
+}
+
+/* TEXTAREA */
+.textarea {
+    width: 100%;
+    height: 140px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #e5e7eb;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+/* BUTTON */
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #2563eb;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+/* RIGHT */
+.Right {
+    flex: 1;
+    padding: 50px;
+    background: #ffffff;
+    border-left: 1px solid #e5e7eb;
+}
+
+/* PROFILE */
+.profile {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+/* RESULT */
+.result {
+    background: #f3f4f6;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.empty {
+    text-align: center;
+    color: #9ca3af;
+}
